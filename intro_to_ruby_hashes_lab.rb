@@ -40,6 +40,7 @@ def update_counting_hash(hash, key)
  else
    puts "no"
    hash = {key => 1}
+   puts hash
  end
 end
 update_counting_hash(hash1, :name3)
