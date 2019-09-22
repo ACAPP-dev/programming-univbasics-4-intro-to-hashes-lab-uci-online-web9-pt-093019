@@ -39,7 +39,7 @@ def update_counting_hash(hash, key)
    {key => hash[key] +=1}
  else
    puts "no"
-   return hash = {key => 1}
+   hash = {key => 1}
    puts hash
  end
 end
