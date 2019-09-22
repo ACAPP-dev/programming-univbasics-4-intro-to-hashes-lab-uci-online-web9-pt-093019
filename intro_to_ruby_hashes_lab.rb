@@ -27,7 +27,7 @@ def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
   read_from_hash = hash[key]
 end
-hash1 = {:name => 1, :age => 5}
+#hash1 = {:name => 1, :age => 5}
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
@@ -35,13 +35,13 @@ def update_counting_hash(hash, key)
   
   if hash[key]
    # update_counting_hash = {key => hash[key] +=1}
-   puts "Yes"
+   #puts "Yes"
    hash[key] +=1
  else
-   puts "no"
+   #puts "no"
    hash[key] = 1
-   puts hash
+   #puts hash
  end
 end
-update_counting_hash(hash1, :name)
-puts hash1
+#update_counting_hash(hash1, :name)
+#puts hash1
