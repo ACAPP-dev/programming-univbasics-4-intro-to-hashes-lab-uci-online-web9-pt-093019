@@ -41,4 +41,4 @@ def update_counting_hash(hash, key)
    update_counting_hash = {key => 1}
  end
 end
-update_counting_hash(hash1, :name)
+update_counting_hash(hash1, name:)
