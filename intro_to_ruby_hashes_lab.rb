@@ -46,4 +46,4 @@ def update_counting_hash(hash, key)
  end
 end
 update_counting_hash(hash1, :name3)
-puts hash1
+puts update_counting_hash
