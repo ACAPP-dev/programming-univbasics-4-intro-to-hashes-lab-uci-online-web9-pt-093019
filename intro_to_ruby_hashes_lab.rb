@@ -40,9 +40,9 @@ def update_counting_hash(hash, key)
  else
    #puts "no"
   hash[key] = 1
-  Return hash
-   #puts hash
+  
+   puts hash
  end
 end
-#update_counting_hash(hash1, :name)
+update_counting_hash(hash1, :name)
 #puts hash1
